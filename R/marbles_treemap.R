@@ -3,7 +3,7 @@ library(treemap)
 library(tidyverse)
 
 
-df<-read_csv("/Users/tmo/marbles.csv")
+df<-read_csv("../datasets/marbles.csv")
 
 df_gp<-df %>%
   group_by(team_name) %>%
